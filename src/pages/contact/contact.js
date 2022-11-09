@@ -22,15 +22,16 @@ function Contact() {
 
   return (
     <div>
+      <div className="contactHeader">Hey!! Fill the Form to get in touch with us</div>
       <div className="contactUs">
-      <span className="contactHeader">Hey!! Fill the Form to get in touch with us</span>
+    
       <form className="contactform" onSubmit={handleSubmit}>
         <label className="labelcontact">Your Name</label>
-        <input className="loginInput" type="text" placeholder="Enter your Name" ref={nameRef}/>
+        <input className="loginInput" type="text" placeholder="Enter your Name.." ref={nameRef}/>
         <label className="labelcontact">Email</label>
         <input className="loginInput" type="text" placeholder="Enter your email..." ref={emailRef}/>
-        <label className="labelcontact">Car Name with Company</label>
-        <input className="loginInput" type="text" placeholder="Your Car name" ref={descRef}/>
+        <label className="labelcontact">Car Description</label>
+        <textarea className="loginInput" type="text" placeholder="Your Car Desc.." ref={descRef} rows="3" cols="35"/>
         <button className="loginButton">Submit</button>
       </form>
        

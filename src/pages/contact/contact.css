@@ -17,10 +17,24 @@
 .contactHeader{
     font-family: "Lora", serif;
     font-size: 45px;
-    color: white;
+    color: #444;
+    width: fit-content;
+    margin: auto;
+padding: 6% 0%;
 }
 
 .labelcontact{
     color: white;
-    margin:auto
+    margin:auto;
+    padding: 4% 0%;
+    font-weight: 900;
 }
+
+
+@media screen and (max-width:  600px) {
+   .contactHeader{
+    font-size: 18px;
+   }
+  
+    
+  }

@@ -40,13 +40,13 @@ console.log(isFetching);
     <div className="login">
       <span className="loginTitle">Login</span>
       <form className="loginForm" onSubmit={loginHandler}>
-        <label>Email</label>
+        <label className="loginlabel">Email</label>
         <input className="loginInput" type="text" placeholder="Enter your email..." ref={emailRef}/>
-        <label>Password</label>
+        <label className="loginlabel">Password</label>
         <input className="loginInput" type="password" placeholder="Enter your password..." ref={passwordRef} />
-        <button className="loginButton">Login</button>
+        <button className="loginButton btn btn-outline-secondary">Login</button>
       </form>
-        <button className="loginRegisterButton" onClick={goToRegister} disabled={isFetching}>Register</button>
+        <button className="loginRegisterButton btn btn-outline-secondary" onClick={goToRegister} disabled={isFetching}>Register</button>
     </div>
   );
 }

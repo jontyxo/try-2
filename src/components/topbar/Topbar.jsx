@@ -34,7 +34,7 @@ export default function Topbar() {
       </div>
       <div className="topRight">
         {user ? (
-          <span>Hello, {user.name}</span>
+          <span className="usernamelogin">Hello, {user.name}</span>
         ) : (
           <ul className="topList">
             <li className="topListItem">

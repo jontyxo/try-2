@@ -62,3 +62,18 @@
   color: #666;
   cursor: pointer;
 }
+
+.usernamelogin{
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
+
+@media screen and (max-width:  600px) {
+  .topCenter{
+    display:none;
+  }
+  
+
+  
+}

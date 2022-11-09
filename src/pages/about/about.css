@@ -6,11 +6,25 @@
 }
 .aboutp{
     font-family: "Lora", serif;
+    font-size: 28px;
     margin: auto;
-    width: 50%;
+    width: 70%;
     display: flex;
     padding: 1% 7%;
-    border: 1px black solid;
+    border: 2px #444 solid;
     border-radius: 15px;
     margin-top: 5%;
+    color: #444
 }
+
+@media screen and (max-width:  600px) {
+  .aboutp{
+    font-size: 22px;
+    width: 60%;
+  }
+  .aboutimg{
+    object-fit: contain;
+  }
+  
+    
+  }

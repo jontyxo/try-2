@@ -4,11 +4,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background: 
+  linear-gradient(
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.2)
+  ),
+    url("https://res.cloudinary.com/jonty-mern/image/upload/v1668024598/xenon/20459088_nejma9.jpg");
   background-size: cover;
 }
 
@@ -22,9 +23,7 @@
   flex-direction: column;
 }
 
-.registerForm > label {
-  margin: 10px 0;
-}
+
 
 .registerInput {
   padding: 10px;
@@ -40,8 +39,8 @@
 .registerButton {
   margin-top: 20px;
   cursor: pointer;
-  background-color: teal;
-  color: white;
+  font-size: 24px;
+  font-weight: 900;
   padding: 10px;
   border: none;
   border-radius: 10px;
@@ -51,11 +50,18 @@
 .registerLoginButton {
   position: absolute;
   top: 60px;
-  right: 20px;
-  background-color: lightcoral;
+  right: 20px;font-size: 24px;
+  font-weight: 900;
+  
   cursor: pointer;
   padding: 10px;
   border: none;
-  color: white;
+  
   border-radius: 10px;
+}
+
+.registerlabel{
+  color: white;
+    margin:auto;
+    padding:10px 0px
 }
